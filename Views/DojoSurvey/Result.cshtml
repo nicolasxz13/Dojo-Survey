@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Dojo Survey Result</title>
+    <link rel="stylesheet" type="text/css" href="~/css/stylesresult.css">
+</head>
+<body>
+    <div class="container">
+        <div class="data">
+            <h1>Submited Info</h1>
+            <div class="blocks">
+                <p>Your Name</p>
+                <p id="name">@ViewBag.Iname</p>
+            </div>
+            <div class="blocks">
+                <p>Dojo Location</p>
+                <p id="location">@ViewBag.Ilocation</p>
+            </div>
+            <div class="blocks">
+                <p>Favorite Language</p>
+                <p id="favorite">@ViewBag.Ifavorite</p>
+            </div>
+            <div class="blocks blockstextarea">
+                <p>Comment</p>
+                <p id="comment">@ViewBag.Icomment</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
